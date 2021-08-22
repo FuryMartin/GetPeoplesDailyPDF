@@ -8,27 +8,28 @@
 
 ## 1.使用前准备
 
-### 1.下载源码并解压
+### 1.1 下载源码并解压
 
-### 2.安装依赖包
+### 1.2 安装依赖包
 
 打开cmd或powershell，切换到解压文件所在目录，输入`pip install -r requirements.txt`
 
-## 1.使用方法
+## 2.使用方法
 
+### 2.1 基本命令
 `python main.py`，下载当日报纸的PDF文件
 
 `python main.py 20200701` 下载指定日期的PDF文件
 
 `python main.py 20200701 20210822` 下载2020年7月1日至2021年8月22日的PDF文件
 
-## 2.进阶使用：定时下载PDF文件
-
-Windows下的操作方法，macOS/Linux用户请自行寻找解决办法
+### 2.2 进阶使用：定时下载PDF文件
 
 Win用户请参考本文：https://jingyan.baidu.com/article/9080802200cc15fd91c80fcf.html
 
 注意将`paper.vbe`文件设置为要启动的程序，并将`起始于`设置为`paper.vbe`文件所在目录
+
+macOS/Linux用户请自行寻找解决办法
 
 ## 3.已知问题
 

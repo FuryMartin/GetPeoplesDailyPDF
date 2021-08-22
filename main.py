@@ -9,6 +9,7 @@ import pandas as pd
 from PyPDF2 import PdfFileMerger
 import warnings
 warnings.filterwarnings("ignore")
+# PyPDF2在合并时有未知bug，不断抛出告警。然而，合并的PDF并没有问题，故为方便使用，关闭告警提示
 
 
 class Paper:

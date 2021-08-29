@@ -27,9 +27,13 @@
 
 Win用户请参考本文：https://jingyan.baidu.com/article/9080802200cc15fd91c80fcf.html
 
-注意将`paper.vbe`文件设置为要启动的程序，并将`起始于`设置为`paper.vbe`文件所在目录
+macOS/Linux用户请自行寻找定时运行程序的办法
 
-macOS/Linux用户请自行寻找解决办法
+注意：
+
+1.将`paper.vbe`文件设置为要启动的程序，并将`起始于`设置为`paper.vbe`文件所在目录
+
+2.如果需要进入特定的conda环境，请编辑`paper.bat`并按注释修改
 
 ## 3. 已知问题
 
